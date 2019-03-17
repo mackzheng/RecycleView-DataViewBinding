@@ -1,4 +1,6 @@
 # RecycleView-DataViewBinding
+liveData  DataBinding 框架
+
 进度：目前在整理框架代码。
 
 主要功能：实现RecycleView数据绑定的UI框架。
