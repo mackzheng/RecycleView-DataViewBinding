@@ -42,3 +42,27 @@
 ###性能分析
 - 内存
 - CPU
+
+
+###关键类和代码：
+```
+BaseRecyclerViewAdapter //数据绑定的Adapter封装
+BaseViewHolderFactory   //数据绑定工作基类封装
+
+DataViewBindFactory //数据绑定工厂（userInfo 与 viewHolder的映射）
+UserInfoListActivity //用户信息列表实现 
+```
+
+在UserInfoListActivity中，如下代码将工厂类注入到RecyclerAdapter中。
+为列表关联数据绑定关系
+```
+@Override
+protected BaseRecyclerViewAdapter onCreateListAdapter() {
+    DataViewBindFactory factory = new DataViewBindFactory(this);
+    mAdapter = new BaseRecyclerViewAdapter(factory); //可以扩展BaseRecyclerViewAdapter
+    factory.bindDateToView(mAdapter);
+    return mAdapter;
+}
+
+```
+ 

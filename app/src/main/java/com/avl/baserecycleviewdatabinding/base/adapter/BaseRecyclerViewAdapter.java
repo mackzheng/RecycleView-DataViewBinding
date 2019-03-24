@@ -63,8 +63,6 @@ public class BaseRecyclerViewAdapter<V> extends RecyclerView.Adapter<BaseViewHol
         BaseViewHolder viewHolder = null;
         if (viewType == -1) {
             Log.w("BaseRecyclerAdapter", "the viewType is error viewType = " + viewType);
-            //这里创建一个空 viewHolder
-//          return new BaseEmptyHolder(parent.getContext(), parent);
             return new BaseEmptyHolder(parent.getContext());
         } else {
             viewHolder = viewHolderFactory.create(valueClassTypes.get(viewType), parent);
