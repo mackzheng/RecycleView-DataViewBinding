@@ -1,7 +1,8 @@
 # RecycleView-DataViewBinding
-jetpack框架数据绑定框架：liveData  DataBinding
+扩展阅读：jetpack框架数据绑定框架：liveData  DataBinding
 
 ###主要功能
+
 实现RecycleView数据绑定的UI框架。
 与ReactNative 和 Weex跨端的方案不同，这里主要解决Android原生APP列表的相关问题。
 
@@ -9,9 +10,10 @@ jetpack框架数据绑定框架：liveData  DataBinding
 - 第一期：整理框架;实现一个基本使用demo。
 - 第二期：完善框架;接入更多使用示例。
 - 第三期：框架支持动态下发ViewHolder。
-- 第四期：发布
+- 第四期：整理说明文档。
 
 ###解决问题：
+
 1.列表单元复用问题。
 2.减少adpater处理视图逻辑
 3.降低列表的维护成本。
@@ -21,6 +23,7 @@ jetpack框架数据绑定框架：liveData  DataBinding
 7.解决动态运营的问题。
 
 ###后续工作：
+
 列表单元视图支持热更新，视图单元可以下发代码。
 列表单元功能支持的细化。（视图能够跳转内部activity，跳转webview，跳转内部相机，相册，跳转其他APP）
 
