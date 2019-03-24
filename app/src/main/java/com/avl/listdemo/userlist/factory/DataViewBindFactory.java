@@ -25,7 +25,7 @@ public class DataViewBindFactory extends BizBaseViewHolderFactory {
         /**
          * 1.相同UserInfo数据源，映射到不同的viewHolder，需要继承UserInfo数据结构
          * 2.不同UserInfo的数据源，也可以映射到相同的viewHolder
-         * 3.
+         *
          */
         listAdapter.bind(UserInfoModel.class,  UserInfoViewHolder.class);  //用户信息
         listAdapter.bind(UserInfoModel2.class, UserInfoViewHolder.class);  //用户信息

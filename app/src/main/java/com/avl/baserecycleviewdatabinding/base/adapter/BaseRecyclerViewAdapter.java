@@ -9,7 +9,6 @@ import android.view.ViewGroup;
 
 import com.avl.baserecycleviewdatabinding.base.listeners.BaseOnClickListener;
 import com.avl.baserecycleviewdatabinding.base.listeners.BaseOnLongClickListener;
-import com.avl.baserecycleviewdatabinding.base.util.ListUtils;
 import com.avl.baserecycleviewdatabinding.base.viewholder.BaseEmptyHolder;
 import com.avl.baserecycleviewdatabinding.base.viewholder.BaseViewHolder;
 import com.avl.baserecycleviewdatabinding.base.BaseViewHolderFactory;
